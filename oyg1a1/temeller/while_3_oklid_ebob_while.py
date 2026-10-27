@@ -88,9 +88,9 @@ kucuk = 42
 
 # TODO: Aşağıdaki yorum satırlarını silip kendi while döngünü buraya yaz!
 
-# while .................... :
-#     kalan = ................
-#     buyuk = ................
-#     kucuk = ................
+while kucuk!=0 :
+    kalan = buyuk % kucuk
+    buyuk = kucuk
+    kucuk = kalan
+print("105 ve 42 sayılarının EBOB değeri:", buyuk)
 
-# print("105 ve 42 sayılarının EBOB değeri:", buyuk)

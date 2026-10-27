@@ -88,3 +88,17 @@ while sayac <= toplam_terim_sayisi:
     
     # Bir terim yazdırdığımız için sayacı 1 artırıyoruz
     sayac = sayac + 1
+
+
+#kullanıcının girdiği terim sayısına kadar olan fibonacci sayılaırnı ekrana while döngüsü ile yazdıran kodu yazınız.
+
+toplam_terim_sayisi=int(input("terim sayısı:"))
+birinci=0
+ikinci=1
+sayac=1
+while sayac<=toplam_terim_sayisi:
+    print(f"{sayac}. fibonacci={ikinci}")
+    yeni=birinci+ikinci
+    birinci=ikinci
+    ikinci=yeni
+    sayac+=1

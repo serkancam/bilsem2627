@@ -75,10 +75,11 @@ print(hedef_sayi, "sayısının faktöriyeli (", hedef_sayi, "! ) =", sonuc)
 
 
 # sizden istenen ekleme kullanıcının girdiği sayının faktöryelini hesapyan kodu while döngüsü yazınız
-hedef_sayi=?
-carapan=1
+hedef_sayi=int(input("sayı gir:"))
+carpan=1
 sonuc=1
-while ?:
-    ?
+while carpan<=hedef_sayi:
+    sonuc=sonuc*carpan
+    carpan+=1#carpan = carpan+1
 
 print(f"{hedef_sayi}!={sonuc}")
