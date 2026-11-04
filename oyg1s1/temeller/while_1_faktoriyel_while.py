@@ -74,4 +74,13 @@ while carpan <= hedef_sayi:
 print(hedef_sayi, "sayısının faktöriyeli (", hedef_sayi, "! ) =", sonuc)
 
 
-# sizden istenen ekleme kullanıcının girdiği sayının faktöryelini hesapyan kodu while döngüsü yazınız
+# sizden istenen ekleme, kullanıcının girdiği sayının faktöryelini hesapyan kodu while döngüsü yazınız
+print("*"*20)
+h=int(input("hesaplancak sayı giriniz:"))
+
+carpan=1
+sonuc=1
+while carpan<=h:
+    sonuc=sonuc*carpan
+    carpan=carpan+1
+print(f"{h}!={sonuc}")

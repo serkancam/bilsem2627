@@ -72,7 +72,7 @@ print("-" * 55)
 
 print("\n--- 2. BÖLÜM: WHILE DÖNGÜSÜ İLE FİBONACCİ ---")
 
-toplam_terim_sayisi = 8  # İlk 8 Fibonacci sayısını bulalım
+toplam_terim_sayisi = 12  # İlk 9 Fibonacci sayısını bulalım
 birinci = 0
 ikinci = 1
 sayac = 1  # Kaçıncı terimde olduğumuzu takip eden değişken
