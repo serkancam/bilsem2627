@@ -176,3 +176,4 @@ print("Sonuç:")
 print("Düz Hali :", orijinal_metin)
 print("Ters Hali:", ters_metin)
 print("=" * 60)
+
