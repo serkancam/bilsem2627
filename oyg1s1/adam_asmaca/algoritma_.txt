@@ -1,0 +1,14 @@
+1- "ulkeler.txt" dosyasından verileri oku
+2- verilerden birini seç ve "soru" değişkenine aktar.
+3- "hak" değişkeni tanımla ve değerini 5
+4- bilinen harfler için "bilinenler" koleksiyonu(liste)
+5- söylenen harfler için "soylenenler" koleksiyonu(liste)
+6- hak sıfırdan büyük olduğunda:
+    6.1- "hak" sayısını ekrana yazdır
+    6.2- "soylenenleri" ekrana yazdır
+    6.3- "soru" stringini "bilinenler" içinde olanları ekrana yaz bilinmeyenleri "_ " şeklinde yaz.
+    6.4- kullanıcıdan harf al
+    6.5- eğer harf "soylenenlerde" varsa tekrar harf al(6.1- dön)
+    6.6- eğer harf "soru" da varsa "bilinenler" e ekle yoksa hakkı 1 azalt
+    6.7- harfi "soylenenler" e ekle
+    

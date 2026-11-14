@@ -1,5 +1,3 @@
-
-if False:
-    a=5
-if True:
-    print(a)
+soru="arnatvutluk"
+soru=set(soru)
+print(len(soru))

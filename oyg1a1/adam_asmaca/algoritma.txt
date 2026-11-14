@@ -1,0 +1,21 @@
+"""
+hak:5
+söylenenler(T,U)
+_ U _ _ _
+
+harf: 
+
+""""
+
+1- text dosyasını oku
+2- okunan dosyadan rastegele ülke seç
+3- seçilen ülkeyi "soru" değişkenine aktar
+4- "hak" adında bir değişken tanımla ve 6 ile başlat
+5- "soylenenler" koleksiyonunu boş olarka tanımla
+6- "bilinenler" koleksiyonunu boş olarka tanımla
+7- "hak" 0 dan farklı iken Tekrarla:
+    7.1-hak değerini ekrana yaz
+    7.2-söylenenleri ekrana yaz
+    7.3- soruyu ekrana yaz(sadece bilinenler açık olsun)*
+    7.4- kullanıcıdan harf
+    7.x- oyun bitti mi bak?*
